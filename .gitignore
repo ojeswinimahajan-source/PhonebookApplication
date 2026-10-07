@@ -1,0 +1,29 @@
+# IDE and workspace
+.metadata/
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# Java / Maven
+backend/target/
+*.class
+
+# Vue / Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
